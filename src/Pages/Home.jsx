@@ -1,5 +1,5 @@
-import React from 'react'
-import CollegeCard from '../components/CollegeCard'
+import React from 'react';
+import CollegeCard from '../components/CollegeCard';
 const Home = () => {
   return (
     <div>
@@ -15,7 +15,6 @@ const Home = () => {
         <section className='py-16 px-6'>
           <h2 className='text-3xl font-bold text-center'>why choose our college</h2>
           <div className='max-w-6xl mx-auto grid md:grid-cols-3 gap-6 mt-10'>
-
             <CollegeCard 
             title="Experiance Faculty"
             description="Learn from really experianced teacher from our institute"
@@ -27,11 +26,8 @@ const Home = () => {
             <CollegeCard
             title="Career support"
             description="we help student develope skills for their future careers"
-            
             />
           </div>
-
-
         </section>
         <section className='bg-gray-100 py-16 px-6'>
           <h2 className='text-3xl font-bold text-center'>Popular courses</h2>
@@ -42,23 +38,16 @@ const Home = () => {
             />
             <CollegeCard
             title="Btech"
-            description="it is provide extreme level of environment of coding "
-            
+            description="it is provide extreme level of environment of coding "         
             />
             <CollegeCard
             title="Bcom"
             description="this course defines the business management and accountancy"
-            
             />
-
-
           </div>
-
-
         </section>
       
     </div>
   )
 }
-
-export default Home
+export default Home;

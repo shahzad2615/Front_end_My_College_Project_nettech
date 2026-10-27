@@ -38,3 +38,16 @@ const App = () => {
 }
 
 export default App
+// import React from 'react'
+// import Stlyling from './components/Stlyling'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Stlyling/>
+//     </div>
+//   )
+// }
+
+// export default App
+
